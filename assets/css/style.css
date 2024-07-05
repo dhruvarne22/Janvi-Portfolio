@@ -95,7 +95,7 @@ h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(55, 142, 181, 0.9);
+  background: #142850;
   padding: 12px;
 }
 
@@ -170,13 +170,23 @@ h6 {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
+
 }
 
-.navbar a:hover,
-.navbar .active,
-.navbar .active:focus,
+.navbar a:hover{
+  color: #142850;
+  
+
+}
+.navbar .active>a{
+  color: #142850;
+}
+.navbar .active:focus>{
+  color: #142850;
+}
 .navbar li:hover>a {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgb(255, 255, 255);
+  color: #142850;
 }
 
 .navbar .dropdown ul {
@@ -192,6 +202,7 @@ h6 {
   background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
+  color: #142850;
 }
 
 .navbar .dropdown ul li {
@@ -208,12 +219,13 @@ h6 {
 
 .navbar .dropdown ul a i {
   font-size: 12px;
+  color: #142850;
 }
 
-.navbar .dropdown ul a:hover,
-.navbar .dropdown ul .active:hover,
+.navbar .dropdown ul a:hover>{color: #142850;}
+.navbar .dropdown ul .active:hover>{color: #142850;}
 .navbar .dropdown ul li:hover>a {
-  color: #67b0d1;
+  color: #142850;
 }
 
 .navbar .dropdown:hover>ul {
@@ -726,7 +738,7 @@ section {
 }
 
 .services .icon-box:hover::before {
-  background: #67b0d1;
+  background: #142850;
   top: 0;
   border-radius: 0px;
 }
@@ -738,7 +750,7 @@ section {
 .services .icon i {
   font-size: 48px;
   line-height: 1;
-  color: #67b0d1;
+  color: #142850;
   transition: all 0.3s ease-in-out;
 }
 
@@ -822,7 +834,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(103, 176, 209, 0.8), rgba(103, 176, 209, 0.8)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(#142850, #14285087), url("../img/cta-bg.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }

@@ -34,6 +34,17 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <style>
+    .card-registration .select-input.form-control[readonly]:not([disabled]) {
+font-size: 1rem;
+line-height: 2.15;
+padding-left: .75em;
+padding-right: .75em;
+}
+.card-registration .select-arrow {
+top: 13px;
+}
+  </style>
 </head>
 
 <body>
@@ -57,7 +68,7 @@
             <ul>
               <li><a class="nav-link scrollto" href="#about">About the Company</a></li>
               <li><a class="nav-link scrollto" href="#about-me">About Me</a></li>
-              <li><a class="nav-link scrollto" href="#project">Our Projects</a></li>
+            
           
             </ul>
           </li>
@@ -65,7 +76,16 @@
 
 
 
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+
+          <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a class="nav-link scrollto" href="#services">Offered Services</a></li>
+              <li><a class="nav-link scrollto" href="project.html">Our Projects</a></li>
+          
+            </ul>
+          </li>
+
+
      
        
           
@@ -102,12 +122,12 @@
         <div class="row no-gutters">
           <div class="content col-xl-5 d-flex align-items-stretch" data-aos="fade-up">
             <div class="content">
-              <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+              <div class="section-title" data-aos="fade-in" data-aos-delay="100" style="padding-bottom: 0px;">
                 <h2>About Neshaytech</h2>
                 
               </div>
               
-              <p>
+              <p style="margin-top: 0px;">
                 At Neshaytech, we are passionate about driving technological advancements and creating innovative solutions that shape the future. Our team of dedicated professionals works tirelessly to design and develop cutting-edge websites and applications that meet the highest standards of quality and functionality. We believe in the power of technology to transform businesses and lives, and our mission is to empower our clients with tools and platforms that enable success in the digital age. Join us on our journey to redefine what's possible and achieve new heights of excellence.
               </p>
          
@@ -123,6 +143,53 @@
     </section><!-- End About Section -->
     <!-- End About Section -->
 
+
+
+
+    <section id="about-me" class="portfolio-details">
+      <div class="container">
+        <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+          <!-- <h2>About Me</h2> -->
+          
+        </div>
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+            <div class="portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide" style="height: 25%">
+                  <img src="assets/img/janvi.jpeg" alt="" style=" object-fit: contain; height: 430px;" >
+                </div>
+
+              
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+        
+            <div class="portfolio-description" style="padding-top: 0px;">
+              <h2>Hi There,</h2>
+              <p>
+                Welcome to Neshaytech, where innovation meets design. I'm Janvi Shah, a passionate design enthusiast and the driving force behind Neshaytech. I specialize in crafting exceptional websites, apps, logos, and branding strategies that leave a lasting impression. Let's connect and explore how I can elevate your brand's online presence to new heights.
+<br>
+<br>
+                As a premier provider of advanced technology services, Neshaytech offers customized solutions designed to drive business success. Our expert team is committed to guiding you through the complexities of the digital landscape with a client-centric approach. Join us as we shape the future of digital excellence, one line of code at a time.
+                
+
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
       <div class="container">
@@ -137,7 +204,9 @@
             <div class="icon-box" data-aos="fade-up">
               <div class="icon"><i class="bx bx-pen"></i></div>
               <h4 class="title"><a >Website Design</a></h4>
-              <p class="description">Creating stunning, user-friendly websites that captivate and convert. Our designs are tailored to meet your business needs and provide an exceptional user experience</p>
+              <p class="description">Creating stunning, user-friendly websites that captivate and convert. Our designs are tailored to meet your business needs and provide an exceptional user experience.</p>
+              <div style="margin-top: 45px;"></div>
+              <a class="btn btn-primary"  href="javascript:AlertIt();" style="background-color: #142850; border-color: white;">View Projects</a>
             </div>
           </div>
 
@@ -148,6 +217,9 @@
               <div class="icon"><i class="bx bxl-android"></i></div>
               <h4 class="title"><a >Mobile Application</a></h4>
               <p class="description">Developing innovative mobile apps that engage users and drive business growth. Our apps are designed for performance, usability, and scalability.</p>
+           
+              <div style="margin-top: 70px;"></div>
+              <a class="btn btn-primary"  href="javascript:AlertIt();" style="background-color: #142850; border-color: white;">View Projects</a>
             </div>
           </div>
 
@@ -157,6 +229,8 @@
               <div class="icon"><i class="bx bx-shape-square"></i></div>
               <h4 class="title"><a  href="logo_and_branding.html">Logo and Branding</a></h4>
               <p class="description">Building strong brand identities with unique logos and cohesive branding strategies. We help your business stand out and leave a lasting impression.</p>
+              <div style="margin-top: 70px;"></div>
+              <a class="btn btn-primary"  href="/logo_and_branding.html" style="background-color: #142850; border-color: white;">View Projects</a>
             </div>
       
           </div>
@@ -168,6 +242,8 @@
               <div class="icon"><i class="bx bx-book"></i></div>
               <h4 class="title"><a>UI/UX Design </a></h4>
               <p class="description">Our UI/UX Design Service creates beautiful and intuitive digital experiences through expert research, design, and testing. Enhance user satisfaction and drive business success with our comprehensive solutions.</p>
+              <div style="margin-top: 20px;"></div>
+              <a class="btn btn-primary"  href="/UiUxDesign.html" style="background-color: #142850; border-color: white;">View Projects</a>
             </div>
           </div>
           
@@ -198,46 +274,6 @@
 
 
 
-    <section id="about-me" class="portfolio-details">
-      <div class="container">
-        <div class="section-title" data-aos="fade-in" data-aos-delay="100">
-          <h2>About Me</h2>
-          
-        </div>
-        <div class="row gy-4">
-
-          <div class="col-lg-6">
-            <div class="portfolio-details-slider swiper">
-              <div class="swiper-wrapper align-items-center">
-
-                <div class="swiper-slide" style="height: 30%">
-                  <img src="assets/img/janvi.jpeg" alt="" style="object-fit: cover;" >
-                </div>
-
-              
-
-              </div>
-              <div class="swiper-pagination"></div>
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-        
-            <div class="portfolio-description">
-              <h2>Hi There,</h2>
-              <p>
-                I'm Janvi Shah, a passionate design enthusiast and the driving force behind Neshaytech. I have specialization in crafting exceptional websites, apps, logos, and branding strategies that leave a lasting impression. Let's connect and explore how I can elevate your brand to new heights! Specializing in web/app development, logo design, and branding strategies. Let's collaborate to elevate your brand's online presence.
-<br>
-<br>
-As a premier provider of advanced technology services, we offer customized solutions designed to drive business success. Our team of experts is committed to guiding you through the complexities of the digital landscape.Offering web design, mobile app development, training programs, and a client-centric approach, my firm is dedicated to shaping the future of digital excellence. Join us as we build legacies, one line of code at a time.
-              </p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Portfolio Details Section -->
 
 
 
@@ -252,54 +288,7 @@ As a premier provider of advanced technology services, we offer customized solut
 
 
 
- <!-- ======= Team Section ======= -->
- <section id="project" class="team">
-  <div class="container">
 
-    <div class="section-title" data-aos="fade-in" data-aos-delay="100">
-      <h2>Projects</h2>
-      
-    </div>
-
-    <div class="row">
-
-      <div class="col-lg-4 col-md-6">
-        <div class="member" data-aos="fade-up">
-          <div class="pic"><img src="assets/img/project1.png" class="img-fluid" style="height: 320px; object-fit: cover;" alt=""></div>
-          <div class="member-info">
-            <h4>Citizen Care App</h4>
-            <span style="padding: 5px;">  This app’s vision is to be the one-stop hub where talents and customers are nourished. We're expanding into retail, offering a diverse range at unbeatable prices. Plus, our rewards system makes it all even better – loyal customers and dedicated vendors both win big.</span>
-           
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6">
-        <div class="member" data-aos="fade-up" data-aos-delay="150">
-          <div class="pic"><img src="assets/img/android.gif" class="img-fluid" style="height: 320px; object-fit: cover;" alt=""></div>
-          <div class="member-info">
-            <h4>Test Killer App – Android Project</h4>
-            <span>  This app is basically for students who can perform their exams on this particular app and they get results on the spot and many features are there.</span>
-          
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6">
-        <div class="member" data-aos="fade-up" data-aos-delay="300">
-          <div class="pic"><img src="assets/img/newline_2.gif" class="img-fluid"  style="height: 320px; object-fit: cover;" alt=""></div>
-          <div class="member-info">
-            <h4>Expense Counter — Java Project</h4>
-            <span> Helps to identify and eliminate wasteful spending habits in your financial life</span>
-          
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-  </div>
-</section><!-- End Team Section -->
 
 
 
@@ -332,7 +321,7 @@ As a premier provider of advanced technology services, we offer customized solut
         <div class="row">
           <div class="col-lg-6">
             <div class="info-box mb-4">
-              <i class="bx bx-map"></i>
+              <i class="bx bx-map" style="color: #142850;"></i>
               <h3>Our Address</h3>
               <p>India</p>
             </div>
@@ -340,10 +329,10 @@ As a premier provider of advanced technology services, we offer customized solut
 
           <div class="col-lg-3 col-md-6">
             <a href="mailto:Neshaytech@gmail.com">
-            <div class="info-box  mb-4">
-              <i class="bx bx-envelope"></i>
+            <div class="info-box  mb-4" >
+              <i class="bx bx-envelope"  style="color: #142850;"></i>
               <h3>Email Us</h3>
-              <p>Neshaytech@gmail.com</p>
+              <p>neshaytech@gmail.com</p>
             </div>
           </a>
           </div>
@@ -351,7 +340,7 @@ As a premier provider of advanced technology services, we offer customized solut
           <div class="col-lg-3 col-md-6">
             <a href="tel:+919904543933">
             <div class="info-box  mb-4">
-              <i class="bx bx-phone-call"></i>
+              <i class="bx bx-phone-call "  style="color: #142850;"></i>
               <h3>Call Us</h3>
               <p>+91 9904543933</p>
             </div>
@@ -360,7 +349,80 @@ As a premier provider of advanced technology services, we offer customized solut
 
         </div>
 
-        <div class="row">
+
+
+        <section class="h-100 " style="padding: 0px; padding-bottom: 0px;">
+          <form method="POST" role="form"    data-netlify="true" name="contact">
+          <div class="container py-5 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+              <div class="col">
+                <div class="card card-registration my-4">
+                  <div class="row g-0">
+                    <div class="col-xl-6 d-none d-xl-block">
+                      <div style="margin-top: 80px;"></div>
+                      <img src="https://i.pinimg.com/originals/19/97/f3/1997f3da28e8d29289097871f45b04fd.gif"
+                        alt="Sample photo" class="img-fluid"
+                        style="border-top-left-radius: .25rem; border-bottom-left-radius: .25rem;" />
+                    </div>
+                   
+                    <div class="col-xl-6">
+                      <div class="card-body p-md-5 text-black">
+                        <h3 class="mb-5 text-uppercase">Send us message</h3>
+        
+                        <div class="row">
+                          <div class="col-md-6 mb-4">
+                            <div data-mdb-input-init class="form-outline">
+                              <input type="text" id="firstName" class="form-control form-control-lg" />
+                              <label class="form-label" for="firstName">First name</label>
+                            </div>
+                          </div>
+                          <div class="col-md-6 mb-4">
+                            <div data-mdb-input-init class="form-outline">
+                              <input type="text" id="lastName" class="form-control form-control-lg" />
+                              <label class="form-label" for="lastName">Last name</label>
+                            </div>
+                          </div>
+                        </div>
+        
+                  
+        
+                        <div data-mdb-input-init class="form-outline mb-4">
+                          <input type="email" id="email" class="form-control form-control-lg" />
+                          <label class="form-label" for="email">Email</label>
+                        </div>
+        
+                     
+        
+        
+                        <div data-mdb-input-init class="form-outline mb-4">
+                          <input type="text" id="subject" class="form-control form-control-lg" />
+                          <label class="form-label" for="subject">Subject</label>
+                        </div>
+        
+                        <div data-mdb-input-init class="form-outline mb-4">
+                          <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                        </div>
+        
+                     
+                        <div class="d-flex justify-content-end pt-3">
+                          <!-- <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-light btn-lg">Reset all</button> -->
+                          <button  type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-success btn-lg ms-2" style="background-color: #142850;">Send</button>
+                        </div>
+        
+                      </div>
+                    </div>
+                 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+        </section>
+
+
+
+        <!-- <div class="row">
 
      
 
@@ -395,7 +457,7 @@ As a premier provider of advanced technology services, we offer customized solut
             
           </div> 
 
-        </div>
+        </div> -->
 
 
 
@@ -414,13 +476,13 @@ As a premier provider of advanced technology services, we offer customized solut
 
           <div class="col-lg-12 col-md-6">
             <div class="footer-info">
-             <img src="assets/img/neshayatech logo.png" alt="" width="20%">
+             <img src="assets/img/neshayatech logo.png" alt="" width="240px">
              <div style="padding-bottom: 20px;"></div>
               <p class="pb-3"><em>Empowering Innovation, Building Future-Ready Solutions.</em></p>
               <p>
              
                 <strong>Phone:</strong> +91 9904543933<br>
-                <strong>Email:</strong> Neshaytech@gmail.com<br>
+                <strong>Email:</strong> neshaytech@gmail.com<br>
               </p>
           
             </div>
@@ -439,6 +501,14 @@ As a premier provider of advanced technology services, we offer customized solut
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
 
+  
+
+  <script type="text/javascript">
+  function AlertIt() {
+  var answer = confirm ("No Samples are available for it. Please check later.")
+
+  }
+  </script>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
